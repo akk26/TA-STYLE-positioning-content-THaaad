@@ -1,0 +1,210 @@
+CSS reset
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+
+
+ 
+/* Custom style of page */
+
+*,
+*::before
+*::after{
+  box-sizing: border-box;
+}
+.equal{
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  background-color: rgb(83,133,193);
+  width: 100%;
+  max-width: 1320px;
+  padding: 50px 0px;
+}
+.right-nav a{
+  float: right;
+  text-decoration: none; 
+  color: rgb(197, 193, 193);
+  padding-left: 15px;
+  font-size: 15px;
+}
+.left-nav a{
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+.top{
+  width: 100%;
+  background-color: rgb(83,133,193)
+}
+.top,h1,.first-para{
+  text-align: center;
+  color: white;
+}
+.first-para{
+  padding-bottom: 130px;
+}
+h1{
+  font-size: 50px;
+  font-style:oblique;
+  margin-bottom: 20px;
+}
+.middle{
+  width: 100%; 
+}
+.div{
+  width: 27%;
+  float:left;
+  padding: 80px 3%;
+}
+.heading-two{
+  font-size: 20px;
+  color: rgb(117,156,205);
+  text-align: left;
+}
+.para-two{
+  font-size: 15px;
+  color: rgb(109, 101, 101);
+  text-align: left;
+}
+.btn a{
+  display: inline-block;
+  background-color: rgb(83,133,193);
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+.gallery{
+  width: 100%;
+  background-color: rgb(83,133,193);
+  padding: 100px 0px ;
+}
+.gallery, h2, p, img{
+  text-align: center;
+}
+.gallery-sec h5{
+  font-size: 40px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.gallery-sec p{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.image-box{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 0.1px solid rgb(240, 232, 232);
+}
+.image-box h6{
+  color: white;
+}
+.image-box img{
+  padding: 20px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.second-last{
+  width: 100%;
+}
+.lower{
+  text-align: center;
+  margin: 50px;
+}
+.lower h3{
+  font-size: 50px;
+  color: rgb(98,143,198);
+}
+.lower p{
+  padding: 10px;
+  color:rgb(145, 131, 131);
+}
+.lower-image {
+  width: 46%;
+  float: left;
+}
+.lower-image h6, .lower-image p{
+  text-align: left;
+}
+.lower-image h6{
+  color:  rgb(98,143,198);
+  padding: 20px 0px;
+}
+.lower-image p{
+  color: rgb(145, 131, 131);;
+}
+.lower-image img{
+  width: 100%;
+}
+.lower-img{
+  margin-left: 8%;
+}
+.footer{
+  margin-top: 80px;
+}
+.copy-right{
+  width: 100%;
+  padding: 40px 0px;
+}
+.footer-nav{
+  float: right;
+}
+.fb{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.clearfix::before, .clearfix::after{
+  content: "";
+  display: table;
+}
+.clearfix::after{
+  clear: both;
+}
